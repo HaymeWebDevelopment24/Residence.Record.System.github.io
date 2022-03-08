@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0122E914-E6BD-462F-B49B-31903FAD7A89}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NewSystem</RootNamespace>
+    <AssemblyName>NewSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.9.10.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addresidences.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="addresidences.Designer.cs">
+      <DependentUpon>addresidences.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmadmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmadmin.Designer.cs">
+      <DependentUpon>frmadmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.cs">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmsignup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsignup.Designer.cs">
+      <DependentUpon>frmsignup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fromdashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fromdashboard.Designer.cs">
+      <DependentUpon>Fromdashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registeredlogs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registeredlogs.Designer.cs">
+      <DependentUpon>Registeredlogs.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addresidences.resx">
+      <DependentUpon>addresidences.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmadmin.resx">
+      <DependentUpon>frmadmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsignup.resx">
+      <DependentUpon>frmsignup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fromdashboard.resx">
+      <DependentUpon>Fromdashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Registeredlogs.resx">
+      <DependentUpon>Registeredlogs.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserIcon.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Admin.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NEW2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\H.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\residence-icon-54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logs-historic-data-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_add_contact_create_new_person_user_add_friend-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images_%286%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19-194798_transparent-logout-png-sign-out-icon-transparent-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

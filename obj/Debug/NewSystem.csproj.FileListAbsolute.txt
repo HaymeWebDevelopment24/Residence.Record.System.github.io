@@ -1,0 +1,15 @@
+C:\Users\james\OneDrive\Documents\MyFiles\C# Language_Program\C#Residence\NewSystem\NewSystem\bin\Debug\NewSystem.exe.config
+C:\Users\james\OneDrive\Documents\MyFiles\C# Language_Program\C#Residence\NewSystem\NewSystem\bin\Debug\NewSystem.exe
+C:\Users\james\OneDrive\Documents\MyFiles\C# Language_Program\C#Residence\NewSystem\NewSystem\bin\Debug\NewSystem.pdb
+C:\Users\james\OneDrive\Documents\MyFiles\C# Language_Program\C#Residence\NewSystem\NewSystem\obj\Debug\NewSystem.Properties.Resources.resources
+C:\Users\james\OneDrive\Documents\MyFiles\C# Language_Program\C#Residence\NewSystem\NewSystem\obj\Debug\NewSystem.csproj.GenerateResource.Cache
+C:\Users\james\OneDrive\Documents\MyFiles\C# Language_Program\C#Residence\NewSystem\NewSystem\obj\Debug\NewSystem.exe
+C:\Users\james\OneDrive\Documents\MyFiles\C# Language_Program\C#Residence\NewSystem\NewSystem\obj\Debug\NewSystem.pdb
+C:\Users\james\OneDrive\Documents\MyFiles\C# Language_Program\C#Residence\NewSystem\NewSystem\obj\Debug\NewSystem.frmAdmin.resources
+C:\Users\james\OneDrive\Documents\MyFiles\C# Language_Program\C#Residence\NewSystem\NewSystem\obj\Debug\NewSystem.frmsignup.resources
+C:\Users\james\OneDrive\Documents\MyFiles\C# Language_Program\C#Residence\NewSystem\NewSystem\obj\Debug\NewSystem.frmlogin.resources
+C:\Users\james\OneDrive\Documents\MyFiles\C# Language_Program\C#Residence\NewSystem\NewSystem\obj\Debug\NewSystem.Registeredlogs.resources
+C:\Users\james\OneDrive\Documents\MyFiles\C# Language_Program\C#Residence\NewSystem\NewSystem\obj\Debug\NewSystem.Home.resources
+C:\Users\james\OneDrive\Documents\MyFiles\C# Language_Program\C#Residence\NewSystem\NewSystem\obj\Debug\NewSystem.addresidences.resources
+C:\Users\james\OneDrive\Documents\MyFiles\C# Language_Program\C#Residence\NewSystem\NewSystem\obj\Debug\NewSystem.Fromdashboard.resources
+C:\Users\james\OneDrive\Documents\MyFiles\C# Language_Program\C#Residence\NewSystem\NewSystem\obj\Debug\NewSystem.csprojResolveAssemblyReference.cache
